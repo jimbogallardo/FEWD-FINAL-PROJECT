@@ -1,0 +1,308 @@
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+iframe {
+  width: 75vw;
+  margin-left: 8rem;
+}
+.pr-2rem {
+  padding-right: 2rem;
+}
+.fs-1em {
+  font-size: 1em;
+}
+.fs-2em {
+  font-size: 2em;
+}
+.fs-3em {
+  font-size: 3em;
+}
+.fs-1-5-em {
+  font-size: 1.5em;
+}
+.mb-15rem {
+  margin-bottom: 15rem;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  background-color: #4b1006;
+}
+.owlslogo {
+  width: 11rem;
+  height: 7rem;
+  margin-top: 2rem;
+}
+.z-index-9999 {
+  z-index: 9999;
+}
+.pl-6rem {
+  padding-left: 6rem;
+}
+.fs-1-5em {
+  font-size: 1.5em;
+}
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.bd-example {
+  margin: 0px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.at-center {
+  text-align: center;
+}
+.tc-yellow {
+  color: #f6db00;
+}
+.tc-maroon {
+  color: #4b1006;
+}
+.tc-owlred {
+  color: #771910;
+}
+.tc-gray {
+  color: #6e6f74;
+}
+.tc-white {
+  color: white;
+}
+a:focus,
+a:hover {
+  color: #f6db00;
+  text-decoration: underline;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-80 {
+  font-size: 80px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.m-0 {
+  margin: 0;
+}
+.mtb-1rem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mt-2rem {
+  margin-top: 2rem;
+}
+.mtb-3rem {
+  margin-top: 3rem;
+  margin-bottom: 3 rem;
+}
+.mb-1rem {
+  margin-bottom: 1rem;
+}
+.pl-5rem {
+  padding-left: 5rem;
+}
+.pt-1rem {
+  padding-top: 1rem;
+}
+.pl-3rem {
+  padding-left: 3rem;
+}
+.pt-3rem {
+  padding-top: 3rem;
+}
+.pt-5rem {
+  padding-top: 5rem;
+}
+.pl-2rem {
+  padding-left: 2rem;
+}
+.plr-1rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.vw-100 {
+  width: 100vw;
+}
+.h-500 {
+  height: 500px;
+}
+.h-250 {
+  height: 250px;
+}
+.h-85vh {
+  height: 85vh;
+}
+.card-img-top {
+  height: 8rem;
+  width: 8rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.card-body h5 {
+  font-size: 1em;
+}
+.card-body p {
+  font-size: 0.75em;
+}
+.protectNest {
+  background-image: url("../images/owl1b.png");
+  background-position: center;
+  background-size: cover;
+  text-shadow: -1px 0, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  height: 50vh;
+}
+.ad-logo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer {
+  background-color: #4b1006;
+  height: 175px;
+  width: 100vw;
+  text-align: center;
+}
+.font-2 {
+  font-size: 2em;
+}
+.mt-sm-0 {
+  margin-top: 0;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+.mobile-only {
+  display: none;
+}
+.desktop-only {
+  display: block;
+}
+.font-2 {
+  font-size: 2em;
+}
+.d-none {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .h-s-33vh {
+    height: 33vh;
+  }
+  .mt-s-23 {
+    margin-top: 23rem;
+  }
+  .mt-s-12 {
+    margin-top: 12rem;
+  }
+  .mt-s-53 {
+    margin-top: 43rem;
+  }
+  iframe {
+    width: 75vw;
+    margin-left: 0rem;
+  }
+  .pl-s-2-4rem {
+    padding-left: 2.4rem;
+  }
+  .owlEyes-s {
+    background-image: url("../images/owlEyes.png");
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+  }
+  .fs-s-1em {
+    font-size: 1em;
+  }
+  .mt-s-37rem {
+    margin-top: 37rem;
+  }
+  .mt-s-0 {
+    margin-top: 0;
+  }
+  .pl-s-0 {
+    padding-left: 0rem;
+  }
+  .pt-s-3rem {
+    padding-top: 3rem;
+  }
+
+  .pl-s-1rem {
+    padding-left: 1rem;
+  }
+  .h-s-70vh {
+    height: 70vh;
+  }
+  #appMenuPopup {
+    position: absolute;
+    top: 65px;
+    right: 1px;
+    background-color: #4b1006;
+    width: fit-content;
+    padding-right: 1rem;
+    z-index: 2;
+  }
+
+  #appMenuPopup ul li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #appMenuPopup ul li a {
+    color: #f6db00;
+    font-size: 1.5em;
+  }
+  .owlsO {
+    width: 5.5em;
+    height: 4.5em;
+  }
+  .mr-s-12 {
+    margin-right: 12em;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .s-content {
+    padding-top: 80px;
+  }
+}
